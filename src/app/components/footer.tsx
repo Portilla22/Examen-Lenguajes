@@ -7,9 +7,16 @@ function Footer() {
       <div className="container mx-auto flex justify-between items-center">
         <div>
           <h2 className="text-lg font-semibold mb-2">Contáctame</h2>
-          <p>Email: josuealpizar2290@gmail.com</p>
-          <p>Teléfono: +(506) 7233-8452</p>
-          <p>Dirección: Golfito, Puntarenas, Costa Rica</p>
+          <p>
+       <img src="correo.png" alt="Teléfono" className="inline-block mr-2 h-5" />: Josuealpizar2290@gmail.com
+        </p>
+          <p>
+       <img src="telefono.png" alt="Teléfono" className="inline-block mr-2 h-5" />: +(506) 7233-8452
+        </p>
+        <p>
+       <img src="Direccion.png" alt="Teléfono" className="inline-block mr-2 h-5" />: 
+        Golfito, Puntarenas, Costa Rica.
+        </p>
         </div>
         <div>
           <h2 className="text-lg font-semibold mb-2">Redes Sociales</h2>
