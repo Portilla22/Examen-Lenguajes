@@ -41,12 +41,9 @@ const Header = () => {
         <img src="logo.png" alt="" className="w-24 h-24 mr-3" />
         <div>
           <h1 className="mb-1 text-2xl font-semibold text-white">
-            Josue Portilla Alpizar
+            Portafolio Web
           </h1>
-          <h3 className="text-lg text-white">Desarrollador web</h3>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50 text-white">
-            Bienvenidos a mi portafolio web
-          </p>
+          
         </div>
       </div>
     </header>
