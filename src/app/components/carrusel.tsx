@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface Repo {
   id: number;
@@ -53,23 +54,26 @@ const Carousel: React.FC = () => {
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           {repos.map((repo) => (
+            
             <div key={repo.id} className="carousel-item flex-none w-full">
               <div style={{ marginLeft: 'auto' }}>
               <Image src={"/git.webp"} alt={repo.name} className="mx-auto" width={300} height={150} />
           </div>
-              <h2 className="text-center text-2xl font-bold text-white">{repo.name}</h2>
+          <Link href={`https://github.com/Portilla22/${repo.name}/archive/refs/heads/main.zip`} download>
+  <h2 className="hover:underline cursor-pointer text-center text-2xl font-bold text-white ">{repo.name}</h2>
+</Link>
             </div>
           ))}
-          <div><h2 className="text-center text-2xl font-bold text-white"> Perfil de GitHub</h2></div>
+          
         </div>
       </div>
       <div className="flex justify-between w-full mt-4">
-        <button onClick={prevSlide} className=" text-white px-4 py-2" style={{
+        <button onClick={prevSlide} className="hover:underline text-white px-4 py-2" style={{
         backgroundColor: "#800020",
       }}>
           Anterior
         </button>
-        <button onClick={nextSlide} className=" text-white px-4 py-2" style={{
+        <button onClick={nextSlide} className="hover:underline text-white px-4 py-2" style={{
         backgroundColor: "#800020",
       }}>
           Siguiente

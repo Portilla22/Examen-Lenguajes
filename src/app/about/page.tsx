@@ -23,7 +23,7 @@ const About = () => {
               Soy un informático empresarial con experiencia en la creación de soluciones innovadoras para empresas.
               Mi pasión por la tecnología me lleva a explorar constantemente nuevas áreas, desde la inteligencia artificial hasta la ciberseguridad.
               Disfruto colaborando en entornos dinámicos donde puedo combinar mis habilidades técnicas con mi creatividad. 
-              ¡Estoy emocionado por seguir explorando nuevas oportunidades y desafíos!.</p>
+              ¡Estoy emocionado por seguir explorando nuevas oportunidades y desafíos!</p>
               <Link href="https://www.linkedin.com/in/josue-alpizar-22877730b" passHref>
       <img src="/linkedin.png" alt="" className="w-8 h-8" width={24} height={24}/>
     </Link>

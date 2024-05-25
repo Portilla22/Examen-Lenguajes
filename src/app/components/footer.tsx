@@ -23,7 +23,7 @@ function Footer() {
         </div>
         <div>
           <h2 className="text-lg font-semibold mb-2">Redes Sociales</h2>
-          <ul className="flex space-x-4">
+          <ul className="flex space-x-4 justify-center">
             <li>
               <a href="https://www.facebook.com/josue.portillaalpizar" className="text-white hover:text-gray-300">
               <Image src="/facebook.png" alt="" className="w-6 h-6" width={300} height={150}/>
