@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 interface Repo {
   id: number;
@@ -54,11 +55,12 @@ const Carousel: React.FC = () => {
           {repos.map((repo) => (
             <div key={repo.id} className="carousel-item flex-none w-full">
               <div style={{ marginLeft: 'auto' }}>
-              <img src={`https://advance.unab.cl/wp-content/uploads/2020/08/Qu%C3%A9-se-hace-en-Inform%C3%A1tica.jpg`} alt={repo.name} className="mx-auto" />
+              <Image src={"/git.webp"} alt={repo.name} className="mx-auto" width={300} height={150} />
           </div>
               <h2 className="text-center text-2xl font-bold text-white">{repo.name}</h2>
             </div>
           ))}
+          <div><h2 className="text-center text-2xl font-bold text-white"> Perfil de GitHub</h2></div>
         </div>
       </div>
       <div className="flex justify-between w-full mt-4">

@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       
       <main className="flex min-h-screen flex-col items-center justify-between p-24" style={{
-        backgroundImage: `url('https://cdn.pixabay.com/photo/2022/06/20/14/20/space-7273891_1280.jpg')`, 
+        backgroundImage: `url('/oficial.jpg')`, 
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}>

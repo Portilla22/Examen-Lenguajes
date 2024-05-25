@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Header = () => {
   return (
@@ -38,7 +39,7 @@ const Header = () => {
         </ul>
       </nav>
       <div className="flex items-center justify-center">
-        <img src="logo.png" alt="" className="w-24 h-24 mr-3" />
+        <Image src="/logo.png" alt="" className="w-24 h-24 mr-3" width={300} height={150}/>
       </div>
     </header>
   );

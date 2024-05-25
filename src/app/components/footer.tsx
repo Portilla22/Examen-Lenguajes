@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Image from 'next/image';
 
 function Footer() {
   return (
@@ -10,13 +11,13 @@ function Footer() {
         <div>
           <h2 className="text-lg font-semibold mb-2">Contáctame</h2>
           <p>
-       <img src="correo.png" alt="Teléfono" className="inline-block mr-2 h-5" />: Josuealpizar2290@gmail.com
+       <Image src="/correo.png" alt="" className="inline-block mr-2 h-5" width={24} height={24} />: Josuealpizar2290@gmail.com
         </p>
           <p>
-       <img src="telefono.png" alt="Teléfono" className="inline-block mr-2 h-5" />: +(506) 7233-8452
+       <Image src="/telefono.png" alt="" className="inline-block mr-2 h-5" width={24} height={24} />: +(506) 7233-8452
         </p>
         <p>
-       <img src="Direccion.png" alt="Teléfono" className="inline-block mr-2 h-5" />: 
+       <Image src="/Direccion.png" alt="" className="inline-block mr-2 h-5" width={24} height={24} />: 
         Golfito, Puntarenas, Costa Rica.
         </p>
         </div>
@@ -25,17 +26,17 @@ function Footer() {
           <ul className="flex space-x-4">
             <li>
               <a href="https://www.facebook.com/josue.portillaalpizar" className="text-white hover:text-gray-300">
-              <img src="/facebook.png" alt="" className="w-6 h-6" />
+              <Image src="/facebook.png" alt="" className="w-6 h-6" width={300} height={150}/>
               </a>
             </li>
             <li>
               <a href="https://www.instagram.com/jei.pi.ei.840_2" className="text-white hover:text-gray-300">
-              <img src="/instagram.png" alt="" className="w-6 h-6" />
+              <Image src="/instagram.png" alt="" className="w-6 h-6" width={300} height={150}/>
               </a>
             </li>
             <li>
               <a href="https://twitter.com/josue_alpiz" className="text-white hover:text-gray-300">
-              <img src="/twitter.png" alt="Twitter" className="w-6 h-6" />
+              <Image src="/twitter.png" alt="Twitter" className="w-6 h-6" width={300} height={150}/>
               </a>
             </li>
           </ul>

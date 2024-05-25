@@ -1,11 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
 import { skill } from '../components/skill';
+import Image from 'next/image';
 
 const About = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-between p-6 " style={{
-        backgroundImage: "url('https://cdn.pixabay.com/photo/2022/06/20/14/20/space-7273891_1280.jpg')",
+        backgroundImage: "url('/oficial.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}>
@@ -14,7 +15,7 @@ const About = () => {
       <section className="w-full max-w-5xl text-white bg-gray-500  p-6 rounded-lg shadow-md mb-8 mt-36 ">
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-1/3 mb-4 md:mb-0">
-            <img src="perfil.jpeg" alt="Josue Portilla" className="w-64 h-64 mr-3"  />
+            <Image src="/perfil.jpeg" alt="Josue Portilla" className="w-64 h-64 mr-3" width={300} height={150}  />
           </div>
           <div className="w-full md:w-2/3 md:pl-6">
             <h1 className="text-2xl font-bold mb-4">¡Hola! Mi nombre es Edwin Josue Portilla Alpizar</h1>
@@ -23,9 +24,9 @@ const About = () => {
               Mi pasión por la tecnología me lleva a explorar constantemente nuevas áreas, desde la inteligencia artificial hasta la ciberseguridad.
               Disfruto colaborando en entornos dinámicos donde puedo combinar mis habilidades técnicas con mi creatividad. 
               ¡Estoy emocionado por seguir explorando nuevas oportunidades y desafíos!.</p>
-            <Link href="https://www.linkedin.com/in/josue-alpizar-22877730b" legacyBehavior>
-              <a target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">LinkedIn</a>
-            </Link>
+              <Link href="https://www.linkedin.com/in/josue-alpizar-22877730b" passHref>
+      <img src="/linkedin.png" alt="" className="w-8 h-8" width={24} height={24}/>
+    </Link>
           </div>
         </div>
       </section>
