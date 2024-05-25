@@ -39,12 +39,6 @@ const Header = () => {
       </nav>
       <div className="flex items-center justify-center">
         <img src="logo.png" alt="" className="w-24 h-24 mr-3" />
-        <div>
-          <h1 className="mb-1 text-2xl font-semibold text-white">
-            Portafolio Web
-          </h1>
-          
-        </div>
       </div>
     </header>
   );

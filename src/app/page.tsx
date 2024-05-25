@@ -11,20 +11,26 @@ export default function Home() {
     <div>
       
       <main className="flex min-h-screen flex-col items-center justify-between p-24" style={{
-        backgroundImage: `url('https://blog.hubspot.es/hs-fs/hubfs/media/queesseguridadinformatica.jpeg?width=595&height=400&name=queesseguridadinformatica.jpeg')`, // Ruta de la imagen de fondo
+        backgroundImage: `url('https://cdn.pixabay.com/photo/2022/06/20/14/20/space-7273891_1280.jpg')`, 
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}>
-      <div className="mb-8 text-center lg:mb-0 lg:w-full lg:max-w-md lg:text-left ">
-  <div className="w-full lg:w-1/4 p-4 mx-auto mt-60"> {/* Ajusta mt-32 según sea necesario */}
-  <p className="text-xl font-semibold mb-4 mt-4 inline-block bg-gray-500 p-4">
-  ¡Bienvenido a mi portafolio!.
-  </p>
-    <div>
-      {/* Otro contenido aquí */}
+     <section className="max-w-5xl mx-auto bg-gray-500 bg-opacity-65 p-6 rounded-lg shadow-md mb-8 mt-36 flex justify-center text-white">
+  <div className="w-full md:w-2/3 md:px-4"> 
+    <div className="text-center text-xl mb-4 text-center">
+      <p>
+      ¡Bienvenido a mi portafolio en línea!
+      <br />
+      <br />
+      Te invito a conocer más sobre mí, mis habilidades y los proyectos en los que he trabajado. Si estás interesado en contratarme o requieres más información, ¡no dudes en ponerte en contacto conmigo!
+      <br />
+      <br />
+      ¡Explora mi portafolio y descubre cómo puedo aportar a tu empresa!
+      </p>
     </div>
   </div>
-</div>
+</section>
+
       </main>
      
     </div>

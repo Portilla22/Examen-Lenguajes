@@ -1,22 +1,16 @@
-import React from 'react';
+import Head from 'next/head';
+import Carousel from '../components/carrusel';
 
-const Github = () => {
+export default function Home() {
   return (
     <div>
-      
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="mb-32 grid text-left lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <div className="w-full lg:w-1/4 p-8">
-    <h2 className="text-2xl font-semibold mb-4 ml-4 mt-8">Pag Github</h2>
-    <div>
-
+      <Head>
+        <title>Next.js Carousel</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <main className="flex flex-col items-center justify-center min-h-screen py-2 bg-cover bg-center" style={{ backgroundImage: 'url("https://img.freepik.com/vector-premium/fondo-tecnologia-abstracta-innovacion-concepto-comunicacion-alta-tecnologia_42421-367.jpg?w=740")' }}>
+        <Carousel />
+      </main>
     </div>
-  </div>
-      </div>
-    </main>
-   
-  </div>
   );
-};
-
-export default Github;
+}
