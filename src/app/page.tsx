@@ -19,7 +19,7 @@ export default function Home() {
   <div className="w-full md:w-2/3 md:px-4"> 
     <div className="text-center text-xl mb-4 text-center">
       <p>
-      ¡Bienvenido a mi portafolio en línea!
+      ¡Bienvenido(a) a mi portafolio en línea!
       <br />
       <br />
       Te invito a conocer más sobre mí, mis habilidades y los proyectos en los que he trabajado. Si estás interesado en contratarme o requieres más información, ¡no dudes en ponerte en contacto conmigo!
