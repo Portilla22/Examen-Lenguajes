@@ -21,11 +21,18 @@ function Footer() {
         Golfito, Puntarenas, Costa Rica.
         </p>
         </div>
+        <div className= "mt-4 text-center">
+        <ul className="flex space-x-4 ">
+            <li className="hover:underline cursor-pointer text-white rounded-full overflow-hidden text-xl" style={{color: "blue", marginLeft: "-150px" }}>
+              <a href="mailto:josuealpizar2290@gmail.com">Enviar correo</a>
+            </li>
+          </ul>
+        </div>
         <div>
           <h2 className="text-lg font-semibold mb-2">Redes Sociales</h2>
           <ul className="flex space-x-4 justify-center">
             <li>
-              <a href="https://www.facebook.com/josue.portillaalpizar" className="text-white hover:text-gray-300">
+              <a href="https://www.facebook.com/josue.portillaalpizar" className="text-whit5 hover:text-gray-300">
               <Image src="/facebook.png" alt="" className="w-6 h-6" width={300} height={150}/>
               </a>
             </li>

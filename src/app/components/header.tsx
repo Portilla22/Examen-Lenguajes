@@ -33,9 +33,6 @@ const Header = () => {
           <li style={{ display: "inline", marginRight: "10px", color: "white" }}>
             <Link href="/github">Proyectos</Link>
           </li>
-          <li style={{ display: "inline", marginRight: "10px", color: "white" }}>
-          <a href="mailto:josuealpizar2290@gmail.com">Call to action</a>
-          </li>
         </ul>
       </nav>
       <div className="flex items-center justify-center">
